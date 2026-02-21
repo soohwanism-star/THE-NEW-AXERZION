@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background: black;
+    overflow: hidden;
+    font-family: Arial;
+    color: cyan;
+    text-align: center;
+}
+
+.hud {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 120px auto 20px;
+}
+
+.ring {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border: 2px solid cyan;
+    border-radius: 50%;
+    animation: rotate 6s linear infinite;
+}
+
+.ring2 {
+    border-style: dashed;
+    animation-direction: reverse;
+    animation-duration: 10s;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.listening .ring,
+.listening .ring2 {
+    animation: none;
+    transform: scale(1.1);
+}
+
+.speaking canvas {
+    filter: drop-shadow(0 0 15px cyan);
+}
+
+.hint {
+    opacity: 0.5;
+}
