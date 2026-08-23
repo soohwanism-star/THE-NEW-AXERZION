@@ -1,4 +1,4 @@
-# Black Eye — GitHub Pages
+# Black End — GitHub Pages
 
 이 저장소는 GitHub Pages용입니다. `main` 브랜치에 올린 뒤 GitHub 저장소의 **Settings → Pages → Build and deployment → GitHub Actions**를 한 번 선택하면 자동 배포됩니다. 이후 저장소의 **Actions** 탭에서 배포 완료 후 표시되는 주소를 여세요.
 
