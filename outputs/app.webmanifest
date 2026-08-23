@@ -1,0 +1,11 @@
+{
+  "name": "Black Eye",
+  "short_name": "Black Eye",
+  "description": "A personal AI chat interface powered by NVIDIA.",
+  "start_url": "./nvidia-gemma-chat.html",
+  "display": "standalone",
+  "background_color": "#111111",
+  "theme_color": "#111111",
+  "orientation": "portrait-primary",
+  "icons": [{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
